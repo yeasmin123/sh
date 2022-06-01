@@ -1,0 +1,98 @@
+body{
+    background-color: aqua;
+}
+
+
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #ff4081;
+  }
+
+  .circle {
+    height: 100px;
+    width: 100px;
+    background-color: #ba68c8;
+    border-radius: 50%;
+  }
+
+  .ring {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid #d50000 ;
+    border-radius: 50%;
+  }
+ .green{
+     width: 300px;
+     height: 150px;
+     background-color: green;
+     overflow: hidden;
+     position: relative;
+ }
+
+ .red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+ }
+
+  .oval {
+    height: 100px;
+    width: 150px;
+    background-color: salmon;
+    border-radius: 50%;
+  }
+
+  .trapezoid {
+	border-bottom: 100px solid #e8eaf6;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+.rectangle {
+    height: 100px;
+    width: 150px;
+    background-color: #90caf9;
+  }
+
+  .parallelogram {
+	width: 150px;
+	height: 100px;
+	transform: skew(20deg);
+	background: #2196f3;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 45px solid #b388ff ;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 75px solid #2962ff ;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #c6ff00;
+	border-bottom: 70px solid transparent;
+}
